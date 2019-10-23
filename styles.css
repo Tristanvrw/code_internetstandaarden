@@ -1,0 +1,121 @@
+
+*, html{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ /* voor het gehele html bestand */
+}
+
+/*@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    FONTFACE DOET RAAR ALS IK HEM INBRENG :(
+}
+*/
+
+body{
+    background-color: black;
+    font-family: "avenir"; 
+    font-weight: normal; 
+    color: white; 
+    text-align: center; 
+    overflow: visible;
+    border:0;
+} 
+
+header{
+    background-color: black; 
+    color: red;
+    margin-bottom: 100px;
+    font-size: 25pt;
+    /* Dit is de main-header maar ook de enige header */
+}
+
+h1{
+    color:white;
+    letter-spacing:0.1em;
+    padding-top:1em; 
+    /* CONTRAST */
+}
+
+h2{
+    letter-spacing:0.1em;
+    padding-bottom:15px;
+    margin:0;
+
+}
+p.sub-heading{
+    padding-top:50px;
+    margin-bottom:25px;
+    color:white;
+    /* international student guide Amsterdam */
+}
+
+footer{
+    text-align:center;
+    padding-left:17em;
+    font-size:35px;
+    margin-top:2em;
+}
+
+small{
+    font-size:20px;
+    padding-left:30em;
+}
+
+section.transport {
+    max-width:80%;
+    display:block;
+    margin:0 auto;
+}
+
+.foto-container {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+    /* positie van de tekst */
+}
+
+.foto-container h2 {
+    position:absolute;
+    z-index:1;
+    color:#fff;
+    font-size:70px;
+    background-color:rgba(0,0,0,0.3);
+}
+
+span{
+    color:red;
+    /* niet geheel semantische maar valt niet anders op te lossen? */
+}
+
+section.places {
+    max-width:80%;
+    display:block;
+    margin:0 auto;
+}
+
+.foto-container2 {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+    /* positie van de tekst */
+}
+
+.foto-container2 h2 {
+    position:absolute;
+    z-index:1;
+    color:#fff;
+    font-size:70px;
+    background-color:rgba(0,0,0,0.3);
+}
+
+

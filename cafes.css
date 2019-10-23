@@ -1,0 +1,124 @@
+*, html{
+    padding:0;
+    margin:0;
+     /* voor het gehele html bestand */
+}
+
+/*@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    FONTFACE DOET RAAR ALS IK HEM INBRENG :(
+}
+*/
+
+body{
+    background-color:#ffffff;
+    color:black;
+    overflow:visible;
+    font-family: "avenir";
+}
+
+header h1{
+    text-align:center; 
+    margin-bottom: 1em;
+    color:white;
+    font-size:55px;
+    background-color:red;
+    border:red 1.5em solid; 
+    margin-top: -20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0.2em;
+    padding-top: 1em;
+}
+.sub-header{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+p{
+    padding-right:1.2em;
+    padding-left:1.2em;
+    font-size:13pt;
+    margin-top:2em;
+    margin-bottom:2em;
+    text-align: center;
+    border: none;
+}
+
+a{
+    text-decoration:none;   
+}
+
+
+section{
+    border:red solid 3px;
+    padding-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+button {
+    background-color:red;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    display: inline;
+    font-size: 40px;
+    margin-left:1.5em;
+    margin-right:1.5em;
+    background-color: black;
+  }
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 4em;
+    margin-top: 3em;
+}
+
+.goback-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:none;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: -40px;
+
+    
+}
+
+.home-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:none;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: -40px;
+    margin-left: -20px;  
+}
+
+li{
+    display: inline;
+    background-color: red;
+    
+}
+
+ul{
+    background-color: red;
+   
+}
+
+h4{
+    font-size: 17px;
+    font-weight: bold;
+
+}

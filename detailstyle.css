@@ -1,0 +1,149 @@
+
+*, html{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+     /* voor het gehele html bestand */
+}
+/*@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    FONTFACE DOET RAAR ALS IK HEM INBRENG :(
+}
+*/
+
+ 
+body{
+    background-color:#ffffff;
+    color:black;
+    overflow:visible;
+    font-family:"avenir";
+    }
+
+header h1{
+    text-align:center; 
+    margin-bottom:1.5em;
+    color:white;
+    background-color:red;
+    border:red 2em solid;  
+    margin-top: -20px;
+  
+}
+
+header p{
+    padding-right:1.2em;
+    padding-left:1.2em;
+    font-size:14px;
+    margin-top:4em;
+    margin-bottom: 5em; 
+    font-weight: bold;
+    /* gebruikt voor de omgeving niet perse voor de header zelf. kleur word bepaald door de "body" */
+}
+
+.cafe{
+    border-bottom:black 2px solid;
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+}
+
+.clubs{
+    border-bottom:black 2px solid;
+    margin:2px; 
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;  
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+}
+
+.coffee{
+    border-bottom:black 2px solid;
+    margin:2px;
+    margin-bottom:2.2em; 
+    padding-left:30px;
+    padding-bottom:0;   
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+}
+
+.restaurants{
+     border-bottom:black 2px solid;
+     padding-left:30px;
+     padding-bottom:0;
+     margin-bottom:2.2em;
+     border: red solid;
+     border-left: none;
+     border-right:none;
+     text-align: center;
+}
+/* de classes zijn de content sections en zijn hetzelfde gestyled. */
+
+p{
+    font-size:14px;
+    margin-top:30px;
+    margin-bottom:15px;
+   
+}
+
+.center{
+    text-align:center;
+    font-size:14px;
+   /* voor de center class dat gebruikt is als een sub header of quote */
+}
+
+a{
+    font-size:12px;
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    border-top:red solid 1em;
+    border-right:red solid 1em;
+    border-left:red solid 1em;
+    padding-bottom:2em;
+    border-radius: 10px;
+}
+
+footer{
+    padding-top:80px;
+    background-color:black;
+    border:black solid 2em;
+    border-bottom:black solid 4em;
+ /*de footer is vooral gebruikt voor het bepalen van de ruimte er omheen */ 
+
+}
+h3{
+    margin-top:40px;
+    font-size: 25px;
+}
+
+.goback-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:none;
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: -70px;
+}
+
+ul{
+    background-color: red;
+   
+}
+
+li{
+    display: inline;
+    background-color: red;
+    
+}
+
