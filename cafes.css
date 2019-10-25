@@ -167,6 +167,7 @@ input{
     margin-top: 0.5em;
     width: 500px;
     height: 100px;
+   
 }
 
 textarea{
@@ -177,7 +178,15 @@ textarea{
     margin-bottom: 1em;
     text-align: left;
     font-size: 30px;
+   
 }
+
+.send{
+    margin-left: 17em;
+    margin-bottom: 1em;
+    margin-top: -20px;
+}
+
 
 
 
