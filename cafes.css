@@ -123,3 +123,64 @@ h4{
 
 }
 
+
+.smaller{
+ font-size: 13px;
+ text-align: left;
+
+border: 5px; 
+margin: none;
+margin-top: 0;
+ background-color:white;
+
+ color:black;
+ font-weight: bold;
+ 
+ 
+}
+
+.inline h5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2em;
+    color: red;
+    background-color: white;
+    padding: 20px
+    
+   
+
+}
+
+label{
+    display: block;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 0.7em;
+    text-align: center;
+}
+
+input{
+    border: black 3px dotted;
+    text-align: left;
+    font-size: 45px;
+    margin-left: 5.2em;
+    margin-top: 0.5em;
+    width: 500px;
+    height: 100px;
+}
+
+textarea{
+    border: black 3px dotted;
+    width: 80%;
+    height: 300px;
+    margin-left: 3.7em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+
+
+
