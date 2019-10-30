@@ -117,8 +117,8 @@ a{
 footer{
     padding-top:80px;
     background-color:black;
-    border:black solid 2em;
-    border-bottom:black solid 4em;
+    border: solid 2em;
+    border-bottom: solid 4em;
  /*de footer is vooral gebruikt voor het bepalen van de ruimte er omheen */ 
 
 }
@@ -130,7 +130,7 @@ h3{
 .goback-icon{
     margin-right: 2em;
     margin-left:1em;
-    padding-left:none;
+    padding-left:0;
     text-align: left;
     margin-top: 3em;
     margin-bottom: -70px;

@@ -24,13 +24,13 @@ body{
     
     }
 
-    header h1{
-        text-align:center; 
-        margin-bottom:1.5em;
-        color:white;
-        background-color:red;
-        border:red 2em solid;  
-        margin-top: -20px;
+header h1{
+    text-align:center; 
+    margin-bottom:1.5em;
+    color:white;
+    background-color:red;
+    border: red 2em solid;  
+    margin-top: -20px;
     }
 
 header p{
@@ -114,9 +114,9 @@ a{
     background-color:red;
     color:white;
     text-decoration:none;
-    border-top:red solid 1em;
-    border-right:red solid 1em;
-    border-left:red solid 1em;
+    border-top: red solid 1em;
+    border-right: red solid 1em;
+    border-left: red solid 1em;
     padding-bottom:2em;
     border-radius: 10px;
 
@@ -131,7 +131,7 @@ h3{
 .goback-icon{
     margin-right: 2em;
     margin-left:1em;
-    padding-left:none;
+    padding-left:0;
     text-align: left;
     margin-top: 2em;
     margin-bottom: -70px;
