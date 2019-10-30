@@ -52,9 +52,15 @@ p{
 }
 
 a{
-    text-decoration:none;   
+    text-decoration:none;  
+    width:100%;
+    height:100%; 
+    
 }
-
+img {
+    width:100%;
+    height:100%;
+}
 
 section{
     border:red solid 3px;
@@ -63,7 +69,7 @@ section{
     border-right: none;
 }
 
-button {
+.button {
     background-color:red;
     border-radius: 10px;
     color: white;
@@ -92,6 +98,8 @@ button {
     text-align: left;
     margin-top: 2em;
     margin-bottom: -40px;
+    width: 10%;
+    height: 10%; 
 
     
 }
@@ -103,7 +111,9 @@ button {
     text-align: left;
     margin-top: 2em;
     margin-bottom: -40px;
-    margin-left: -20px;  
+    margin-left: -20px;
+    width: 10%;
+    height: 10%;  
 }
 
 li{
@@ -114,29 +124,24 @@ li{
 
 ul{
     background-color: red;
-   
+
 }
 
 h4{
     font-size: 17px;
     font-weight: bold;
-
 }
-
 
 .smaller{
  font-size: 13px;
  text-align: left;
-
-border: 5px; 
-margin: 0;
-margin-top: 0;
+ border: 5px; 
+ margin: 0;
+ margin-top: 0;
  background-color:white;
 
  color:black;
  font-weight: bold;
- 
- 
 }
 
 .inline h5{
@@ -146,9 +151,6 @@ margin-top: 0;
     color: red;
     background-color: white;
     padding: 20px
-    
-   
-
 }
 
 label{
@@ -166,8 +168,7 @@ input{
     margin-left: 5.2em;
     margin-top: 0.5em;
     width: 500px;
-    height: 100px;
-   
+    height: 100px;  
 }
 
 textarea{
@@ -177,14 +178,19 @@ textarea{
     margin-left: 3.7em;
     margin-bottom: 1em;
     text-align: left;
-    font-size: 30px;
-   
+    font-size: 30px;  
 }
 
 .send{
     margin-left: 17em;
     margin-bottom: 1em;
     margin-top: -20px;
+    background-color:red;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 42px;
+    font-size: 40px;
+    background-color: black;
 }
 
 
