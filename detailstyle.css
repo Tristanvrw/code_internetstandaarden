@@ -4,6 +4,7 @@
     margin:0;
     box-sizing:border-box;
      /* voor het gehele html bestand */
+
 }
 /*@font-face {
     font-family: 'Avenir';
@@ -11,6 +12,7 @@
     font-weight: normal;
     font-style: normal;
     FONTFACE DOET RAAR ALS IK HEM INBRENG :(
+
 }
 */
 
@@ -20,7 +22,8 @@ body{
     color:black;
     overflow:visible;
     font-family:"avenir";
-    }
+
+}
 
 header h1{
     text-align:center; 
@@ -40,6 +43,7 @@ header p{
     margin-bottom: 5em; 
     font-weight: bold;
     /* gebruikt voor de omgeving niet perse voor de header zelf. kleur word bepaald door de "body" */
+
 }
 
 .cafe{
@@ -51,6 +55,7 @@ header p{
     border-left: none;
     border-right:none;
     text-align: center;
+
 }
 
 .clubs{
@@ -63,6 +68,7 @@ header p{
     border-left: none;
     border-right:none;
     text-align: center;
+
 }
 
 .coffee{
@@ -75,6 +81,7 @@ header p{
     border-left: none;
     border-right:none;
     text-align: center;
+
 }
 
 .restaurants{
@@ -86,6 +93,7 @@ header p{
      border-left: none;
      border-right:none;
      text-align: center;
+
 }
 /* de classes zijn de content sections en zijn hetzelfde gestyled. */
 
@@ -100,6 +108,7 @@ p{
     text-align:center;
     font-size:14px;
    /* voor de center class dat gebruikt is als een sub header of quote */
+
 }
 
 a{
@@ -112,6 +121,7 @@ a{
     border-left:red solid 1em;
     padding-bottom:2em;
     border-radius: 10px;
+
 }
 
 footer{
@@ -122,9 +132,11 @@ footer{
  /*de footer is vooral gebruikt voor het bepalen van de ruimte er omheen */ 
 
 }
+
 h3{
     margin-top:40px;
     font-size: 25px;
+
 }
 
 .goback-icon{
@@ -136,6 +148,7 @@ h3{
     margin-bottom: -70px;
     width: 10%;
     height: 10%;
+    
 }
 
 ul{
