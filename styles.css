@@ -30,7 +30,7 @@
 .indexPage header{
     background-color: black; 
     color: red;
-    margin-bottom: 100px;
+    margin-bottom: 2.250em;
     font-size: 25pt;
     /* Dit is de main-header maar ook de enige header */
 
@@ -46,7 +46,7 @@
 
 .indexPage h2{
     letter-spacing:0.1em;
-    padding-bottom:15px;
+    padding-bottom:0.9em;
     margin:0;
 
 }
@@ -59,8 +59,8 @@
 }
 
 .indexPage p.sub-heading{
-    padding-top:50px;
-    margin-bottom:25px;
+    padding-top:1.025em;
+    margin-bottom:1.563em;
     color:white;
     /* international student guide Amsterdam */
 
@@ -69,13 +69,13 @@
 .indexPage footer{
     text-align:center;
     padding-left:17em;
-    font-size:35px;
+    font-size:2.188em;
     margin-top:2em;
 
 }
 
 .indexPage small{
-    font-size:20px;
+    font-size:1.250em;
     padding-left:30em;
 
 }
@@ -102,7 +102,7 @@
     position:absolute;
     z-index:1;
     color:#fff;
-    font-size:70px;
+    font-size:4.375em;
     background-color:rgba(0,0,0,0.3);
 
 }
@@ -135,7 +135,7 @@
     position:absolute;
     z-index:1;
     color:#fff;
-    font-size:70px;
+    font-size:4.375em;
     background-color:rgba(0,0,0,0.3);
     
 }
@@ -164,13 +164,13 @@ body.detailPage header h1{
     color:white;
     background-color:red;
     border:red 2em solid;  
-    margin-top: -20px;
+    margin-top: -1.250em;
 }
 
 body.detailPage header p{
     padding-right:1.2em;
     padding-left:1.2em;
-    font-size:14px;
+    font-size:0.875em;
     margin-top:4em;
     margin-bottom: 5em; 
     font-weight: bold;
@@ -179,9 +179,9 @@ body.detailPage header p{
 }
 
 body.detailPage .cafe{
-    border-bottom:black 2px solid;
+    border-bottom:black 0.125em solid;
     margin-bottom:2.2em;
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;
     border:red solid;
     border-left: none;
@@ -192,9 +192,9 @@ body.detailPage .cafe{
 
 body.detailPage .clubs{
     border-bottom:black 2px solid;
-    margin:2px; 
+    margin:0.125em; 
     margin-bottom:2.2em;
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;  
     border:red solid;
     border-left: none;
@@ -204,10 +204,10 @@ body.detailPage .clubs{
 }
 
 body.detailPage .coffee{
-    border-bottom:black 2px solid;
-    margin:2px;
+    border-bottom:black 0.125em solid;
+    margin:0.125em;
     margin-bottom:2.2em; 
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;   
     border:red solid;
     border-left: none;
@@ -217,8 +217,8 @@ body.detailPage .coffee{
 }
 
 body.detailPage .restaurants{
-     border-bottom:black 2px solid;
-     padding-left:30px;
+     border-bottom:black 0.125em solid;
+     padding-left:1.875em;
      padding-bottom:0;
      margin-bottom:2.2em;
      border: red solid;
@@ -230,21 +230,21 @@ body.detailPage .restaurants{
 /* de classes zijn de content sections en zijn hetzelfde gestyled. */
 
 body.detailPage p{
-    font-size:14px;
-    margin-top:30px;
-    margin-bottom:15px;
+    font-size:0.875em;
+    margin-top:1.875em;
+    margin-bottom:0.938em;
    
 }
 
 body.detailPage .center{
     text-align:center;
-    font-size:14px;
+    font-size:0.875em;
    /* voor de center class dat gebruikt is als een sub header of quote */
 
 }
 
 body.detailPage a{
-    font-size:12px;
+    font-size:0.750em;
     background-color:red;
     color:white;
     text-decoration:none;
@@ -252,12 +252,12 @@ body.detailPage a{
     border-right:red solid 1em;
     border-left:red solid 1em;
     padding-bottom:2em;
-    border-radius: 10px;
+    border-radius: 0.625em;
 
 }
 
 body.detailPage footer{
-    padding-top:80px;
+    padding-top:5.000em;
     background-color:black;
     border: solid 2em;
     border-bottom: solid 4em;
@@ -266,8 +266,8 @@ body.detailPage footer{
 }
 
 body.detailPage h3{
-    margin-top:40px;
-    font-size: 25px;
+    margin-top:2.200em;
+    font-size: 1.363em;
 
 }
 
@@ -277,7 +277,7 @@ body.detailPage .goback-icon{
     padding-left:0;
     text-align: left;
     margin-top: 3em;
-    margin-bottom: -70px;
+    margin-bottom: -4.375em;
     width: 10%;
     height: 10%;
     
@@ -310,16 +310,16 @@ body.detailPage li{
     text-align:center; 
     margin-bottom: 1em;
     color:white;
-    font-size:55px;
+    font-size:3.438em;
     background-color:red;
     border: red 1.5em solid; 
-    margin-top: -20px;
+    margin-top: none;
 
 }
 
 .Hotspots h2 {
     text-align: center;
-    font-size: 45px;
+    font-size: 2.813em;
     margin-bottom: 0.2em;
     padding-top: 1em;
 
@@ -358,7 +358,7 @@ body.detailPage li{
 }
 
 .Hotspots section{
-    border:red solid 3px;
+    border:red solid 0.188em;
     padding-bottom: 0;
     border-left: none;
     border-right: none;
@@ -367,12 +367,12 @@ body.detailPage li{
 
 .Hotspots .button{
     background-color:red;
-    border-radius: 10px;
+    border-radius: 0.625em;
     color: white;
-    padding: 25px 42px;
+    padding: 0.8em 1em;
     text-align: center;
     display: inline;
-    font-size: 40px;
+    font-size: 2.500em;
     margin-left:1.5em;
     margin-right:1.5em;
     background-color: black;
@@ -395,7 +395,7 @@ body.detailPage li{
     padding-left:0;
     text-align: left;
     margin-top: 2em;
-    margin-bottom: -40px;
+    margin-bottom:-2.500em ;
     width: 10%;
     height: 10%; 
     transform: none;
@@ -408,8 +408,8 @@ body.detailPage li{
     padding-left:0;
     text-align: left;
     margin-top: 2em;
-    margin-bottom: -40px;
-    margin-left: -20px;
+    margin-bottom: -2.500em;
+    margin-left: -1em;
     width: 10%;
     height: 10%; 
     transform: none;
@@ -427,15 +427,15 @@ body.detailPage li{
 }
 
 .Hotspots .tagline{
-    font-size: 17px;
+    font-size: 1.063em;
     font-weight: bold;
 
 }
 
 .Hotspots .smaller{
- font-size: 13px;
+ font-size: 0.813em;
  text-align: left;
- border: 5px; 
+ border: 0.313em; 
  margin: 0;
  margin-top: 0;
  background-color:white;
@@ -445,55 +445,55 @@ body.detailPage li{
 }
 
 .Hotspots .inline h5{
-    font-size: 15px;
+    font-size: 0.938em;
     text-align: center;
     margin-top: 2em;
     color: red;
     background-color: white;
-    padding: 20px
+    padding:1.250em;
 
 }
 
 .Hotspots label{
     display: block;
     margin-left: 1em;
-    font-size: 20px;
+    font-size: 1.250em;
     margin-top: 0.7em;
     text-align: center;
 
 }
 
 .Hotspots input{
-    border: black 3px dotted;
+    border: black 0.08em dotted;
     text-align: left;
-    font-size: 45px;
-    margin-left: 5.2em;
+    font-size: 2.813em;
+    margin-left: 3.4em;
     margin-top: 0.5em;
-    width: 500px;
-    height: 100px; 
+    width: 15em;
+    height: 5em; 
 
 }
 
 .Hotspots textarea{
-    border: black 3px dotted;
-    width: 80%;
-    height: 300px;
+    border: black 0.1em dotted;
+    width: 25em;
+    height: 10em;
     margin-left: 3.7em;
     margin-bottom: 1em;
     text-align: left;
-    font-size: 30px;  
+    font-size: 1.875em;  
 
 }
 
 .Hotspots .send{
     margin-left: 17em;
     margin-bottom: 1em;
-    margin-top: -20px;
+    margin-top: -0.5em;
     background-color:red;
-    border-radius: 10px;
+    border-radius: 0.625em;
     color: white;
-    padding: 25px 42px;
-    font-size: 40px;
+    padding: 0.8em 1em;
+    font-size: 2.500em;
     background-color: black;
     
 }
@@ -523,18 +523,19 @@ body.detailPage li{
 .transport header h1{
     text-align:center; 
     margin-bottom:1.5em;
+    font-size:3.438em;
     color:white;
     background-color:red;
-    border: red 2em solid;  
-    margin-top: -20px;
+    border: red 1em solid;  
+    margin-top: none;
 
 }
 
 .transport header p{
     padding-right:1.2em;
     padding-left:1.2em;
-    font-size:1px;
-    margin-top:3em;
+    font-size:0.063em;
+    margin-top:2em;
     margin-bottom:4em; 
     font-weight:bold;
 
@@ -542,9 +543,9 @@ body.detailPage li{
 
 .transport .tram{
     margin-bottom:2.2em;
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;
-    border:red solid 2px;
+    border:red solid 0.125em;
     border-left: none;
     border-right:none;
     text-align: center;
@@ -553,9 +554,9 @@ body.detailPage li{
 
 .transport .bus{
     margin-bottom:2.2em;
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;  
-    border:red solid 2px;
+    border:red solid 0.125em;
     border-left: none;
     border-right:none;
     text-align: center;
@@ -564,9 +565,9 @@ body.detailPage li{
 
 .transport .subway{
     margin-bottom:2.2em; 
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;   
-    border:red solid 2px; 
+    border:red solid 0.125em; 
     border-left: none;
     border-right:none; 
     text-align: center;
@@ -575,9 +576,9 @@ body.detailPage li{
 
 .transport .ferry{
     margin-bottom:2.2em; 
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;   
-    border:red solid 2px;
+    border:red solid 0.125em;
     border-left: none;
     border-right:none;
     text-align: center;
@@ -585,10 +586,10 @@ body.detailPage li{
 }
 
 .transport .train{
-    padding-left:30px;
+    padding-left:1.875em;
     padding-bottom:0;
     margin-bottom:2.2em;
-    border:red solid 2px;
+    border:red solid 0.125em;
     border-left: none;
     border-right:none;
     text-align: center;
@@ -596,19 +597,19 @@ body.detailPage li{
 }
 
 .transport p{
-    font-size:14px;
-    margin-top:10px;
-    margin-bottom:30px;
+    font-size:0.875em;
+    margin-top:0.625em;
+    margin-bottom:1.875em;
 
 }
 .transport .center{
     text-align:center;
-    font-size:15px;  
+    font-size:0.938em;  
 
 }
 
 .transport a{ 
-    font-size:12px;
+    font-size:0.750em;
     background-color:red;
     color:white;
     text-decoration:none;
@@ -616,14 +617,14 @@ body.detailPage li{
     border-right: red solid 1em;
     border-left: red solid 1em;
     padding-bottom:2em;
-    border-radius: 10px;
+    border-radius: 0.625em;
 
 }
 
 
 .transport h3{
-    margin-top:40px;
-    font-size:25px;
+    margin-top:1.2em;
+    font-size: 1.563em;
 
 }
 
@@ -633,7 +634,7 @@ body.detailPage li{
     padding-left:0;
     text-align: left;
     margin-top: 2em;
-    margin-bottom: -70px;
+    margin-bottom: -4.375em;
     width: 10%;
     height: 10%;
     
