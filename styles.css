@@ -17,7 +17,7 @@
 }
 */
 
-body{
+.indexPage{
     background-color: black;
     font-family: "avenir"; 
     font-weight: normal; 
@@ -25,10 +25,9 @@ body{
     text-align: center; 
     overflow: visible;
     border:0;
-
 } 
 
-header{
+.indexPage header{
     background-color: black; 
     color: red;
     margin-bottom: 100px;
@@ -37,7 +36,7 @@ header{
 
 }
 
-h1{
+.indexPage h1{
     color:white;
     letter-spacing:0.1em;
     padding-top:1em; 
@@ -45,21 +44,21 @@ h1{
 
 }
 
-h2{
+.indexPage h2{
     letter-spacing:0.1em;
     padding-bottom:15px;
     margin:0;
 
 }
 
-img {
+.indexPage img {
     width:100%;
     height:100%;
    
 
 }
 
-p.sub-heading{
+.indexPage p.sub-heading{
     padding-top:50px;
     margin-bottom:25px;
     color:white;
@@ -67,7 +66,7 @@ p.sub-heading{
 
 }
 
-footer{
+.indexPage footer{
     text-align:center;
     padding-left:17em;
     font-size:35px;
@@ -75,20 +74,20 @@ footer{
 
 }
 
-small{
+.indexPage small{
     font-size:20px;
     padding-left:30em;
 
 }
 
-section.transport {
+.indexPage section.Homepagina-transport {
     max-width:80%;
     display:block;
     margin:0 auto;
 
 }
 
-.foto-container {
+.indexPage .foto-container {
     width:100%;
     display:flex;
     justify-content:center;
@@ -99,7 +98,7 @@ section.transport {
 
 }
 
-.foto-container h2 {
+.indexPage .foto-container h2 {
     position:absolute;
     z-index:1;
     color:#fff;
@@ -108,20 +107,20 @@ section.transport {
 
 }
 
-span{
+.indexPage span{
     color:red;
     /* niet geheel semantische maar valt niet anders op te lossen? */
 
 }
 
-section.places {
+.indexPage section.Homepagina-hotspots {
     max-width:80%;
     display:block;
     margin:0 auto;
 
 }
 
-.foto-container2 {
+.indexPage .foto-container2 {
     width:100%;
     display:flex;
     justify-content:center;
@@ -132,7 +131,7 @@ section.places {
 
 }
 
-.foto-container2 h2 {
+.indexPage .foto-container2 h2 {
     position:absolute;
     z-index:1;
     color:#fff;
@@ -141,4 +140,513 @@ section.places {
     
 }
 
+
+
+
+
+
+
+/* Hotspot Pagina /////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+
+
+body.detailPage{
+    background-color:#ffffff;
+    color:black;
+    overflow:visible;
+    font-family:"avenir";
+}
+
+body.detailPage header h1{
+    text-align:center; 
+    margin-bottom:1.5em;
+    color:white;
+    background-color:red;
+    border:red 2em solid;  
+    margin-top: -20px;
+}
+
+body.detailPage header p{
+    padding-right:1.2em;
+    padding-left:1.2em;
+    font-size:14px;
+    margin-top:4em;
+    margin-bottom: 5em; 
+    font-weight: bold;
+    /* gebruikt voor de omgeving niet perse voor de header zelf. kleur word bepaald door de "body" */
+
+}
+
+body.detailPage .cafe{
+    border-bottom:black 2px solid;
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+body.detailPage .clubs{
+    border-bottom:black 2px solid;
+    margin:2px; 
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;  
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+body.detailPage .coffee{
+    border-bottom:black 2px solid;
+    margin:2px;
+    margin-bottom:2.2em; 
+    padding-left:30px;
+    padding-bottom:0;   
+    border:red solid;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+body.detailPage .restaurants{
+     border-bottom:black 2px solid;
+     padding-left:30px;
+     padding-bottom:0;
+     margin-bottom:2.2em;
+     border: red solid;
+     border-left: none;
+     border-right:none;
+     text-align: center;
+
+}
+/* de classes zijn de content sections en zijn hetzelfde gestyled. */
+
+body.detailPage p{
+    font-size:14px;
+    margin-top:30px;
+    margin-bottom:15px;
+   
+}
+
+body.detailPage .center{
+    text-align:center;
+    font-size:14px;
+   /* voor de center class dat gebruikt is als een sub header of quote */
+
+}
+
+body.detailPage a{
+    font-size:12px;
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    border-top:red solid 1em;
+    border-right:red solid 1em;
+    border-left:red solid 1em;
+    padding-bottom:2em;
+    border-radius: 10px;
+
+}
+
+body.detailPage footer{
+    padding-top:80px;
+    background-color:black;
+    border: solid 2em;
+    border-bottom: solid 4em;
+ /*de footer is vooral gebruikt voor het bepalen van de ruimte er omheen */ 
+
+}
+
+body.detailPage h3{
+    margin-top:40px;
+    font-size: 25px;
+
+}
+
+body.detailPage .goback-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:0;
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: -70px;
+    width: 10%;
+    height: 10%;
+    
+}
+
+body.detailPage ul{
+    background-color: red;
+   
+}
+
+body.detailPage li{
+    display: inline;
+    background-color: red;
+    
+}
+
+/* Hotspots pagina  /////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+
+.Hotspots{
+    background-color:#ffffff;
+    color:black;
+    overflow:visible;
+    font-family: "avenir";
+
+}
+
+.Hotspots header h1{
+    text-align:center; 
+    margin-bottom: 1em;
+    color:white;
+    font-size:55px;
+    background-color:red;
+    border: red 1.5em solid; 
+    margin-top: -20px;
+
+}
+
+.Hotspots h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0.2em;
+    padding-top: 1em;
+
+}
+
+.Hotspots .sub-header{
+    text-align: center;
+    margin-bottom: 5em;
+
+}
+
+.Hotspots p{
+    padding-right:1.2em;
+    padding-left:1.2em;
+    font-size:13pt;
+    margin-top:2em;
+    margin-bottom:2em;
+    text-align: center;
+    border: none;
+
+}
+
+.Hotspots a{  
+    text-decoration:none;  
+    width:50%;
+    height:50%; 
+    
+}
+.Hotspots img{
+    width:90%;
+    height:90%;
+    transform: rotate(90deg);
+    margin-left: 3em;
+    
+
+}
+
+.Hotspots section{
+    border:red solid 3px;
+    padding-bottom: 0;
+    border-left: none;
+    border-right: none;
+
+}
+
+.Hotspots .button{
+    background-color:red;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    display: inline;
+    font-size: 40px;
+    margin-left:1.5em;
+    margin-right:1.5em;
+    background-color: black;
+
+  }
+
+  .Hotspots .flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 4em;
+    margin-top: 3em;
+
+}
+
+.Hotspots .goback-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:0;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: -40px;
+    width: 10%;
+    height: 10%; 
+    transform: none;
+ 
+}
+
+.Hotspots .home-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:0;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: -40px;
+    margin-left: -20px;
+    width: 10%;
+    height: 10%; 
+    transform: none;
+
+}
+.Hotspots li{
+    display: inline;
+    background-color: red;
+    
+}
+
+.Hotspots ul{
+    background-color: red;
+
+}
+
+.Hotspots .tagline{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.Hotspots .smaller{
+ font-size: 13px;
+ text-align: left;
+ border: 5px; 
+ margin: 0;
+ margin-top: 0;
+ background-color:white;
+ color:black;
+ font-weight: bold;
+
+}
+
+.Hotspots .inline h5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2em;
+    color: red;
+    background-color: white;
+    padding: 20px
+
+}
+
+.Hotspots label{
+    display: block;
+    margin-left: 1em;
+    font-size: 20px;
+    margin-top: 0.7em;
+    text-align: center;
+
+}
+
+.Hotspots input{
+    border: black 3px dotted;
+    text-align: left;
+    font-size: 45px;
+    margin-left: 5.2em;
+    margin-top: 0.5em;
+    width: 500px;
+    height: 100px; 
+
+}
+
+.Hotspots textarea{
+    border: black 3px dotted;
+    width: 80%;
+    height: 300px;
+    margin-left: 3.7em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-size: 30px;  
+
+}
+
+.Hotspots .send{
+    margin-left: 17em;
+    margin-bottom: 1em;
+    margin-top: -20px;
+    background-color:red;
+    border-radius: 10px;
+    color: white;
+    padding: 25px 42px;
+    font-size: 40px;
+    background-color: black;
+    
+}
+
+.Hotspots .location {
+    background-color: white;
+    margin-top: -0.5em;
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2.75em;
+
+}
+
+/* Transport Pagina  /////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+
+.transport{
+    background-color:#ffffff;
+    color:black;
+    overflow:visible;
+    font-family:"avenir";
+    
+}
+
+.transport header h1{
+    text-align:center; 
+    margin-bottom:1.5em;
+    color:white;
+    background-color:red;
+    border: red 2em solid;  
+    margin-top: -20px;
+
+}
+
+.transport header p{
+    padding-right:1.2em;
+    padding-left:1.2em;
+    font-size:1px;
+    margin-top:3em;
+    margin-bottom:4em; 
+    font-weight:bold;
+
+}
+
+.transport .tram{
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;
+    border:red solid 2px;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+    
+}
+
+.transport .bus{
+    margin-bottom:2.2em;
+    padding-left:30px;
+    padding-bottom:0;  
+    border:red solid 2px;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+.transport .subway{
+    margin-bottom:2.2em; 
+    padding-left:30px;
+    padding-bottom:0;   
+    border:red solid 2px; 
+    border-left: none;
+    border-right:none; 
+    text-align: center;
+
+}
+
+.transport .ferry{
+    margin-bottom:2.2em; 
+    padding-left:30px;
+    padding-bottom:0;   
+    border:red solid 2px;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+.transport .train{
+    padding-left:30px;
+    padding-bottom:0;
+    margin-bottom:2.2em;
+    border:red solid 2px;
+    border-left: none;
+    border-right:none;
+    text-align: center;
+
+}
+
+.transport p{
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+.transport .center{
+    text-align:center;
+    font-size:15px;  
+
+}
+
+.transport a{ 
+    font-size:12px;
+    background-color:red;
+    color:white;
+    text-decoration:none;
+    border-top: red solid 1em;
+    border-right: red solid 1em;
+    border-left: red solid 1em;
+    padding-bottom:2em;
+    border-radius: 10px;
+
+}
+
+
+.transport h3{
+    margin-top:40px;
+    font-size:25px;
+
+}
+
+.transport .goback-icon{
+    margin-right: 2em;
+    margin-left:1em;
+    padding-left:0;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: -70px;
+    width: 10%;
+    height: 10%;
+    
+}
+
+.transport ul{
+    background-color: red;
+   
+}
+
+.transport li{
+    display: inline;
+    background-color: red;
+    
+}
 
