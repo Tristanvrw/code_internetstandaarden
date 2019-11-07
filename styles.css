@@ -147,7 +147,6 @@
 
 
 
-
 /* Hotspot Pagina /////////////////////////////////////
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////*/
@@ -158,6 +157,7 @@ body.detailPage{
     color:black;
     overflow:visible;
     font-family:"avenir";
+
 }
 
 body.detailPage header h1{
@@ -167,6 +167,7 @@ body.detailPage header h1{
     background-color:red;
     border:red 2em solid;  
     margin-top: -1.250em;
+
 }
 
 body.detailPage header p{
@@ -296,6 +297,8 @@ body.detailPage li{
     
 }
 
+
+
 /* Hotspots pagina  /////////////////////////////////////
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////*/
@@ -350,6 +353,7 @@ body.detailPage li{
     height:50%; 
     
 }
+
 .Hotspots img{
     width:90%;
     height:90%;
@@ -381,7 +385,7 @@ body.detailPage li{
 
   }
 
-  .Hotspots .flex-container{
+.Hotspots .flex-container{
     display:flex;
     flex-direction: row;
     justify-content: center;
